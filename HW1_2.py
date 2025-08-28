@@ -17,7 +17,7 @@ class Rectangle:
         self.height = new_height
 
 
-r = Rectangle(4, 5)
+r = Rectangle(8, 10)
 print("Area", r.area())
 print("Perimeter", r.perimeter())
 print("Is square?", r.is_square())
