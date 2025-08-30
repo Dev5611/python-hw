@@ -4,7 +4,6 @@ class Rectangle:
     def __init__(self, width: float, height: float) -> None:
         """
         Initialize a rectangle
-
         :param width: Width of the rectangle
         :param height: Height of the rectangle
         """

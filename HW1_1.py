@@ -1,6 +1,7 @@
 import math
 import sys
 
+
 def calculate_circle_area(radius: float) -> float:
     """
     Calculate the area of a circle
@@ -10,9 +11,14 @@ def calculate_circle_area(radius: float) -> float:
     """
     return math.pi * radius ** 2
 
-r: float = float(input("Enter the radius of the circle: "))
-if r < 0:
-    print("Error: Radius cannot be negative.")
-    sys.exit()  #exit
-a: float = calculate_circle_area(r)
-print("The area of the circle is:", a)
+
+def main() -> None:
+    """Ask the user for a radius and print the area of the circle"""
+    r: float = float(input("Enter the radius of the circle: "))
+
+    if r < 0:
+        print("Error: Radius cannot be negative.")
+        sys.exit()
+
+    a: float = calculate_circle_area(r)
+    print("The area of the circle is:", a)
