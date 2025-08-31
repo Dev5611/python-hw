@@ -1,17 +1,13 @@
-# python-hw
-````markdown
-# Python Practice: Circle and Rectangle
+# python-HW: Circle and Rectangle
 
 ## Description
 
 This repository contains two Python practice programs for basic geometry calculations:
 
-1. HW1_1.py — calculates the area of a circle given a radius.
-2. HW1_2.py — defines a `Rectangle` class with methods to calculate area, perimeter, check if it's a square, and resize the rectangle.
+1. `HW1_1.py` — calculates the area of a circle given a radius.  
+2. `HW1_2.py` — defines a `Rectangle` class with methods to calculate area, perimeter, check if it's a square, and resize the rectangle.  
 
 Both programs include **type annotations**, **docstrings**, and are written according to **PEP 8** standards.
-
----
 
 ## Usage
 
@@ -27,7 +23,7 @@ python HW1_1.py
 
 **Example**:
 
-```
+```text
 Enter the radius of the circle: 5
 The area of the circle is: 78.53981633974483
 ```
@@ -58,7 +54,7 @@ python HW1_2.py
 
 **Example output**:
 
-```
+```text
 Area: 80
 Perimeter: 36
 Is square? False
