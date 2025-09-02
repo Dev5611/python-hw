@@ -31,7 +31,7 @@ def create_product(name: str, price: float, quantity: int) -> Tuple[
     return update_price, view_product
 
 
-# --- Example usage ---
+# Example usage
 update_price, view_product = create_product("Ноутбук", 25000.0, 5)
 
 view_product()        # shows initial product

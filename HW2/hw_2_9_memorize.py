@@ -3,8 +3,8 @@ def memoize(func):
     cache = {}  # Enclosing scope
 
     def wrapper(n):
-        # cache з Enclosing scope
         if n in cache:
+            print("⏱️ Беремо з кеша")  # для наочності
             return cache[n]
         result = func(n)
         cache[n] = result
@@ -21,6 +21,6 @@ def fib(n: int) -> int:
     return fib(n - 1) + fib(n - 2)
 
 
-# --- Demo (no main) ---
-print(fib(10))   # первое вычисление
-print(fib(12))   # второе — из кеша
+# Example usage
+print(fib(3))   # перший виклик — обчислює і зберігає в кеш
+print(fib(3))   # другий виклик — бере результат з кеша

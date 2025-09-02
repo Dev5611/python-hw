@@ -15,7 +15,7 @@ def subscribe(name: str) -> str:
         name (str): The name of the subscriber.
 
     Returns:
-        str: Confirmation message in Ukrainian.
+        str: Confirmation message.
     """
     if not name.strip():
         return "Ім’я підписника не може бути порожнім."
@@ -40,7 +40,7 @@ def unsubscribe(name: str) -> str:
         name (str): The name of the subscriber to remove.
 
     Returns:
-        str: Result message in Ukrainian.
+        str: Result message.
     """
     if name in subscribers:
         subscribers.remove(name)
