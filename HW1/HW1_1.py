@@ -12,7 +12,7 @@ def calculate_circle_area(radius: float) -> float:
     return math.pi * radius ** 2
 
 
-def main() -> None:
+def main():
     """Ask the user for a radius and print the area of the circle"""
     r: float = float(input("Enter the radius of the circle: "))
 
@@ -22,3 +22,7 @@ def main() -> None:
 
     a: float = calculate_circle_area(r)
     print("The area of the circle is:", a)
+
+
+if __name__ == "__main__":
+    main()

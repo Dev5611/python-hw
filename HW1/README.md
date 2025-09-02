@@ -18,7 +18,7 @@ This program asks the user to input the radius of a circle and calculates its ar
 **How to run**:
 
 ```bash
-python HW1_1.py
+python HW1.py
 ````
 
 **Example**:
