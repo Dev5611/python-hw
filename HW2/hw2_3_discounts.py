@@ -46,6 +46,6 @@ def create_order(price: float) -> None:
     )
 
 
-# --- Example usage ---
+# Example usage
 create_order(1000.0)   # OK
 # create_order(-500.0)  # Raises ValueError

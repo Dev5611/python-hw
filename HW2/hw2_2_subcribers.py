@@ -48,7 +48,7 @@ def unsubscribe(name: str) -> str:
     return f"{name} не знайдено у списку підписників"
 
 
-# --- Example usage ---
+# Example usage
 print(subscribe("Олена"))   # Підписка підтверджена для Олена
 print(subscribe("Ігор"))    # Підписка підтверджена для Ігор
 print(subscribers)          # ['Олена', 'Ігор']

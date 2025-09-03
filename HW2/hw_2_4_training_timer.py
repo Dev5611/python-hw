@@ -41,5 +41,5 @@ def training_session(rounds: int) -> None:
             print(f"Раунд {round_num}: {time_per_round} хвилин")
 
 
-# --- Example usage ---
+# Example usage
 training_session(3)
